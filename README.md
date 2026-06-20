@@ -61,3 +61,7 @@ fleet-cost-balance-analytics/
 ├── screenshots/
 ├── data_model/
 └── docs/
+
+### Interactive Tooltip Example
+
+![Tooltip Example](screenshots/executive_overview_tooltip.png)
