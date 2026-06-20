@@ -11,6 +11,11 @@ Notes:
 - Source table names, organization IDs, carrier IDs, server names, and internal system fields were anonymized.
 - The structure keeps the original analytical logic: CTEs, carrier timeline reconstruction, window functions, fallback cost logic.
 - This is a portfolio-safe version and is not intended to run against the original production environment.
+
+Parameterization notes:
+- Years, market organizations, and excluded document types are parameterized in the original reporting solution.
+- Parameters are dynamically injected from the reporting layer to support reusable analytics across multiple regions and reporting periods.
+- Static placeholder values were intentionally removed in this portfolio version to avoid hardcoded business configuration.
 */
 
 WITH awarded_tender_events AS (
