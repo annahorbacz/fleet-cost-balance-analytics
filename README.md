@@ -1,28 +1,47 @@
 # Fleet Cost Balance Analytics
 
-Enterprise-inspired transportation cost benchmarking and operational analytics project built with Power BI and SQL.
+Simplified enterprise-inspired transportation cost benchmarking and operational analytics project built with Power BI and SQL.
 
 ## Business Problem
 
-The project focuses on evaluating the real financial impact of an internal transportation fleet by comparing actual fleet execution costs against realistic alternative transportation cost scenarios.
+The project focuses on evaluating the real financial impact of internal fleet execution by comparing actual fleet transportation costs against realistic alternative carrier cost scenarios.
 
-Traditional benchmarking approaches compared fleet execution costs against the cheapest contracted carrier available on a given route, which significantly overestimated operational losses. This project introduces a rule-based comparison engine that dynamically selects the most realistic alternative cost depending on operational conditions such as:
+Traditional benchmarking approaches often compared fleet execution costs against the cheapest contracted carrier available on a given route, which significantly overstated operational losses.
 
-- Earlier assigned carriers
-- Spot market tenders
-- Contracted carrier rankings
-- Walk away costs
-- Historical average transportation rates
+This project introduces a rule-based benchmark selection engine that dynamically identifies the most realistic alternative transportation cost depending on operational conditions such as:
+
+- Earlier Assigned Carrier Costs
+- Lowest Spot Bids
+- Spot Rates
+- Non-Spot Rates
+- Rank 1 Carrier Costs
 
 ## Key Features
 
-- Complex transportation cost benchmarking logic
-- Rule-based alternative cost selection engine
+## Business Logic & Benchmarking
+- Rule-based benchmark selection engine
+- Transportation cost benchmarking logic
+- Fallback benchmark hierarchy
+- Operational benchmark prioritization
+- Business rule documentation layer
+
+## Data & Modeling
 - Power BI semantic model
 - SQL preprocessing layer
+- Star schema data model
+- DAX calculation layer
+- Power Query transformations
+
+## Reporting & Analytics
+- Executive operational overview
 - Transportation KPI analysis
-- Operational trend analysis
-- Route performance monitoring
+- Regional performance monitoring
+- Route profitability analysis
+- Operational drillthrough pages
+- Interactive tooltip reporting
+- Monthly and weekly trend analysis
+- Bookmark-based navigation
+- Filter pane optimization
 
 ## Tech Stack
 
