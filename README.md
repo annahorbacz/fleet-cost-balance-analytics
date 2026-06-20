@@ -71,7 +71,7 @@ fleet-cost-balance-analytics/
 
 Additional dashboard screenshots, tooltip examples, drillthrough views, SQL transformation samples, and business logic documentation are available in the corresponding project folders:
 
-- /screenshots — dashboard pages, tooltips, and drillthrough examples
+- [`/screenshots`](./screenshots) — dashboard pages, tooltips, and drillthrough examples
 - /sql — sanitized SQL transformation logic and benchmark calculations
 - /docs — DAX logic, business rules, and data dictionary
 - /data — simulated datasets used for the portfolio version
