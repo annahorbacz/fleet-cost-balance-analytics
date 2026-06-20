@@ -62,6 +62,35 @@ fleet-cost-balance-analytics/
 ├── data_model/
 └── docs/
 
+## Planned Project Structure
+
+```txt
+fleet-cost-balance-analytics/
+├── sql/
+├── powerbi/
+├── screenshots/
+├── data_model/
+└── docs/
+```
+
+## Report Preview
+
+### Executive Overview
+
+![Executive Overview](screenshots/executive_overview.png)
+
+### Benchmark Logic
+
+![Benchmark Logic](screenshots/benchmark_logic.png)
+
+### Regional Performance
+
+![Regional Performance](screenshots/regional_performance.png)
+
 ### Interactive Tooltip Example
 
 ![Tooltip Example](screenshots/executive_overview_tooltip.png)
+
+### Data Model
+
+![Data Model](screenshots/data_model.png)
