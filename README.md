@@ -72,7 +72,7 @@ fleet-cost-balance-analytics/
 Additional dashboard screenshots, tooltip examples, drillthrough views, SQL transformation samples, and business logic documentation are available in the corresponding project folders:
 
 - [`/screenshots`](./screenshots) — dashboard pages, tooltips, and drillthrough examples
-- /sql — sanitized SQL transformation logic and benchmark calculations
-- /docs — DAX logic, business rules, and data dictionary
-- /data — simulated datasets used for the portfolio version
-- /powerbi — Power BI project files
+- [`/sql`](./sql) — sanitized SQL transformation logic and benchmark calculations
+- [`/docs`](./docs) — DAX logic, business rules, and data dictionary
+- [`/data`](./data) — simulated datasets used for the portfolio version
+- [`/powerbi`](./powerbi) — Power BI project files
