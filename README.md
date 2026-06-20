@@ -61,16 +61,6 @@ fleet-cost-balance-analytics/
 ├── screenshots/
 ├── data_model/
 └── docs/
-
-## Planned Project Structure
-
-```txt
-fleet-cost-balance-analytics/
-├── sql/
-├── powerbi/
-├── screenshots/
-├── data_model/
-└── docs/
 ```
 
 ## Report Preview
