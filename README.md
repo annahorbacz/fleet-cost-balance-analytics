@@ -67,20 +67,12 @@ fleet-cost-balance-analytics/
 
 ### Executive Overview
 
-![Executive Overview](screenshots/executive_overview.png)
+![Executive Overview](screenshots/executive_overview_tooltip.png)
 
-### Benchmark Logic
+Additional dashboard screenshots, tooltip examples, drillthrough views, SQL transformation samples, and business logic documentation are available in the corresponding project folders:
 
-![Benchmark Logic](screenshots/benchmark_logic.png)
-
-### Regional Performance
-
-![Regional Performance](screenshots/regional_performance.png)
-
-### Interactive Tooltip Example
-
-![Tooltip Example](screenshots/executive_overview_tooltip.png)
-
-### Data Model
-
-![Data Model](screenshots/data_model.png)
+/screenshots — dashboard pages, tooltips, and drillthrough examples
+/sql — sanitized SQL transformation logic and benchmark calculations
+/docs — DAX logic, business rules, and data dictionary
+/data — simulated datasets used for the portfolio version
+/powerbi — Power BI project files
