@@ -1,0 +1,7 @@
+cost_balance_source_key,cost_balance_source,source_category,rule_priority,is_fallback,business_explanation
+1,Earlier Assigned,Previous assignment,1,No,A carrier had already been assigned before the internal fleet took over the order.
+2,Lowest Bid,Spot market,2,No,The lowest valid spot market bid was available for the order.
+3,Spot Rate,Historical average,3,Yes,"No direct spot bid was available, so the historical average spot rate was used."
+4,Non-Spot Rate,Historical average,4,Yes,"No direct benchmark was available, so the historical average non-spot rate was used."
+5,Rank 1 Carrier,Contracted carrier ranking,5,Yes,The contracted carrier ranked first on the route was used as the comparison.
+6,No Comparison,Data quality / missing benchmark,99,Yes,No valid alternative cost could be calculated.

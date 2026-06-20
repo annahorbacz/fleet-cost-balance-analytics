@@ -1,0 +1,11 @@
+﻿carrier_key,carrier_name,carrier_type
+1,Atlas Logistics,External Carrier
+2,BlueRoad Freight,External Carrier
+3,CargoLine,External Carrier
+4,EuroMove,External Carrier
+5,FastFreight,External Carrier
+6,GreenWay Transport,External Carrier
+7,RoadLink,External Carrier
+8,TransNova,External Carrier
+9,Vector Cargo,External Carrier
+10,Dedicated Fleet,Internal Fleet

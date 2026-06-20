@@ -1,0 +1,161 @@
+route_key,lane_key,source_country,destination_country,source_city,destination_city,lane_country,standard_distance_km,operating_region,lane_city
+1,GE-CZ-HAM-BRN,Germany,Czech Republic,Berlin,Brno,Germany → Czech Republic,1569,East,Berlin → Brno
+2,NE-PO-ROT-GDA,Netherlands,Poland,Rotterdam,Poznan,Netherlands → Poland,1586,West,Rotterdam → Poznan
+3,AU-CZ-GRA-PRA,Netherlands,Czech Republic,Amsterdam,Brno,Austria → Czech Republic,1526,West,Amsterdam → Brno
+4,FR-BE-LIL-GHE,France,Belgium,Paris,Antwerp,France → Belgium,1302,West,Paris → Antwerp
+5,BE-FR-BRU-MAR,Belgium,France,Brussels,Paris,Belgium → France,1221,West,Brussels → Paris
+6,PO-SP-WAR-MAD,Netherlands,Spain,Rotterdam,Valencia,Poland → Spain,286,South,Rotterdam → Valencia
+7,CZ-AU-PRA-VIE,Belgium,Austria,Antwerp,Graz,Czech Republic → Austria,1327,West,Antwerp → Graz
+8,PO-BE-POZ-BRU,Germany,Belgium,Munich,Antwerp,Poland → Belgium,1418,West,Munich → Antwerp
+9,NE-SP-UTR-VAL,Netherlands,Spain,Rotterdam,Madrid,Netherlands → Spain,276,South,Rotterdam → Madrid
+10,SP-GE-VAL-MUN,Belgium,Germany,Antwerp,Hamburg,Spain → Germany,293,West,Antwerp → Hamburg
+11,AU-SP-VIE-VAL,Germany,Spain,Munich,Barcelona,Austria → Spain,818,South,Munich → Barcelona
+12,GE-SP-DOR-ZAR,Germany,Spain,Berlin,Valencia,Germany → Spain,227,South,Berlin → Valencia
+13,AU-SP-LIN-ZAR,Belgium,Spain,Antwerp,Barcelona,Austria → Spain,253,South,Antwerp → Barcelona
+14,CZ-GE-OST-BER,Germany,Germany,Hamburg,Frankfurt,Czech Republic → Germany,1122,West,Hamburg → Frankfurt
+15,PO-AU-WRO-VIE,Netherlands,Austria,Rotterdam,Vienna,Poland → Austria,404,West,Rotterdam → Vienna
+16,CZ-IT-OST-BOL,Belgium,Italy,Brussels,Milan,Czech Republic → Italy,291,South,Brussels → Milan
+17,PO-AU-GDA-LIN,Germany,Austria,Berlin,Graz,Poland → Austria,1613,East,Berlin → Graz
+18,CZ-GE-PRA-DOR,France,Germany,Marseille,Berlin,Czech Republic → Germany,1543,West,Marseille → Berlin
+19,PO-IT-WAR-TUR,Belgium,Italy,Antwerp,Turin,Poland → Italy,1026,South,Antwerp → Turin
+20,BE-SP-BRU-VAL,Belgium,Spain,Brussels,Barcelona,Belgium → Spain,1457,South,Brussels → Barcelona
+21,SP-BE-ZAR-ANT,Poland,Belgium,Warsaw,Antwerp,Spain → Belgium,600,West,Warsaw → Antwerp
+22,FR-AU-MAR-GRA,Belgium,Austria,Antwerp,Vienna,France → Austria,788,West,Antwerp → Vienna
+23,GE-PO-BER-GDA,Germany,Poland,Berlin,Wroclaw,Germany → Poland,1412,East,Berlin → Wroclaw
+24,BE-GE-GHE-MUN,Belgium,Germany,Brussels,Frankfurt,Belgium → Germany,1272,West,Brussels → Frankfurt
+25,CZ-PO-BRN-POZ,Czech Republic,Poland,Brno,Poznan,Czech Republic → Poland,1290,East,Brno → Poznan
+26,PO-FR-KAT-LIL,Germany,France,Frankfurt,Paris,Poland → France,182,West,Frankfurt → Paris
+27,PO-FR-GDA-PAR,France,France,Lyon,Lyon,Poland → France,520,West,Lyon → Lyon
+28,RO-BE-BUC-BRU,Romania,Belgium,Bucharest,Brussels,Romania → Belgium,556,West,Bucharest → Brussels
+29,GE-IT-MUN-BOL,Germany,Italy,Munich,Milan,Germany → Italy,1526,South,Munich → Milan
+30,GE-IT-COL-TUR,Germany,Italy,Munich,Turin,Germany → Italy,776,South,Munich → Turin
+31,GE-BE-COL-BRU,Belgium,Belgium,Antwerp,Antwerp,Germany → Belgium,684,West,Antwerp → Antwerp
+32,FR-IT-LYO-MIL,Germany,Italy,Hamburg,Turin,France → Italy,1380,South,Hamburg → Turin
+33,GE-SP-DOR-VAL,France,Spain,Lyon,Madrid,Germany → Spain,1339,South,Lyon → Madrid
+34,FR-CZ-MAR-BRN,Belgium,Czech Republic,Antwerp,Prague,France → Czech Republic,279,West,Antwerp → Prague
+35,FR-IT-NAN-MIL,Germany,Italy,Berlin,Rome,France → Italy,560,South,Berlin → Rome
+36,FR-SP-MAR-MAD,Spain,Spain,Valencia,Madrid,France → Spain,1384,South,Valencia → Madrid
+37,FR-AU-PAR-GRA,Belgium,Austria,Brussels,Vienna,France → Austria,1562,West,Brussels → Vienna
+38,GE-SP-MUN-MAD,Germany,Spain,Munich,Madrid,Germany → Spain,1593,South,Munich → Madrid
+39,GE-BE-DOR-GHE,Poland,Belgium,Warsaw,Brussels,Germany → Belgium,1042,West,Warsaw → Brussels
+40,AU-FR-GRA-NAN,Belgium,France,Antwerp,Marseille,Austria → France,1615,West,Antwerp → Marseille
+41,PO-IT-POZ-TUR,Germany,Italy,Frankfurt,Rome,Poland → Italy,470,South,Frankfurt → Rome
+42,PO-CZ-KAT-PRA,Poland,Czech Republic,Warsaw,Brno,Poland → Czech Republic,768,East,Warsaw → Brno
+43,IT-BE-ROM-GHE,Italy,Belgium,Rome,Ghent,Italy → Belgium,1151,South,Rome → Ghent
+44,GE-FR-BER-NAN,Germany,France,Berlin,Paris,Germany → France,1017,West,Berlin → Paris
+45,BE-GE-ANT-MUN,Belgium,Germany,Antwerp,Frankfurt,Belgium → Germany,756,West,Antwerp → Frankfurt
+46,BE-PO-GHE-WAR,Belgium,Poland,Brussels,Wroclaw,Belgium → Poland,1023,West,Brussels → Wroclaw
+47,CZ-FR-OST-LYO,Germany,France,Frankfurt,Lyon,Czech Republic → France,1622,West,Frankfurt → Lyon
+48,BE-BE-ANT-BRU,Belgium,Belgium,Antwerp,Brussels,Belgium → Belgium,263,West,Antwerp → Brussels
+49,NE-AU-EIN-GRA,Netherlands,Austria,Amsterdam,Graz,Netherlands → Austria,1598,West,Amsterdam → Graz
+50,BE-FR-BRU-NAN,Belgium,France,Antwerp,Paris,Belgium → France,326,West,Antwerp → Paris
+51,SP-CZ-MAD-OST,France,Czech Republic,Marseille,Prague,Spain → Czech Republic,664,West,Marseille → Prague
+52,GR-IT-THE-MIL,Greece,Italy,Thessaloniki,Milan,Greece → Italy,1223,South,Thessaloniki → Milan
+53,SP-CZ-BAR-PRA,Germany,Czech Republic,Frankfurt,Brno,Spain → Czech Republic,1183,East,Frankfurt → Brno
+54,IT-GE-BOL-COL,France,Germany,Marseille,Munich,Italy → Germany,591,West,Marseille → Munich
+55,AU-NE-VIE-UTR,Belgium,Netherlands,Brussels,Rotterdam,Austria → Netherlands,338,West,Brussels → Rotterdam
+56,CZ-PO-BRN-WAR,Czech Republic,Poland,Prague,Wroclaw,Czech Republic → Poland,1384,East,Prague → Wroclaw
+57,NE-IT-ROT-BOL,Netherlands,Italy,Rotterdam,Rome,Netherlands → Italy,1569,South,Rotterdam → Rome
+58,BE-RO-GHE-CLU,Belgium,Romania,Ghent,Cluj-Napoca,Belgium → Romania,1402,West,Ghent → Cluj-Napoca
+59,SP-CZ-BAR-OST,Germany,Czech Republic,Berlin,Prague,Spain → Czech Republic,1358,East,Berlin → Prague
+60,SP-NE-ZAR-EIN,Netherlands,Netherlands,Amsterdam,Amsterdam,Spain → Netherlands,900,West,Amsterdam → Amsterdam
+61,BE-AU-GHE-GRA,Belgium,Austria,Brussels,Graz,Belgium → Austria,570,West,Brussels → Graz
+62,GE-BE-HAM-BRU,Germany,Belgium,Munich,Brussels,Germany → Belgium,435,West,Munich → Brussels
+63,IT-AU-VER-GRA,Netherlands,Austria,Rotterdam,Graz,Italy → Austria,1448,West,Rotterdam → Graz
+64,AU-GE-GRA-DOR,Austria,Germany,Vienna,Frankfurt,Austria → Germany,539,East,Vienna → Frankfurt
+65,FR-IT-LIL-VER,France,Italy,Lyon,Rome,France → Italy,1130,South,Lyon → Rome
+66,GE-AU-DOR-LIN,France,Austria,Lyon,Graz,Germany → Austria,1333,West,Lyon → Graz
+67,NE-GE-EIN-COL,Netherlands,Germany,Amsterdam,Munich,Netherlands → Germany,735,West,Amsterdam → Munich
+68,BE-PO-GHE-WRO,Belgium,Poland,Antwerp,Warsaw,Belgium → Poland,1390,West,Antwerp → Warsaw
+69,IT-NE-BOL-ROT,Italy,Netherlands,Bologna,Rotterdam,Italy → Netherlands,257,South,Bologna → Rotterdam
+70,GE-PO-COL-POZ,Germany,Poland,Hamburg,Poznan,Germany → Poland,875,East,Hamburg → Poznan
+71,BE-GE-GHE-DOR,Belgium,Germany,Antwerp,Berlin,Belgium → Germany,717,West,Antwerp → Berlin
+72,BE-IT-ANT-MIL,Belgium,Italy,Antwerp,Milan,Belgium → Italy,778,South,Antwerp → Milan
+73,PT-RO-POR-CLU,Portugal,Romania,Porto,Cluj-Napoca,Portugal → Romania,1528,South,Porto → Cluj-Napoca
+74,PO-AU-KAT-LIN,Germany,Austria,Berlin,Vienna,Poland → Austria,710,East,Berlin → Vienna
+75,AU-NE-VIE-ROT,Austria,Netherlands,Graz,Amsterdam,Austria → Netherlands,231,West,Graz → Amsterdam
+76,IT-SP-BOL-MAD,Belgium,Spain,Antwerp,Madrid,Italy → Spain,1120,South,Antwerp → Madrid
+77,GE-SP-COL-VAL,Germany,Spain,Frankfurt,Madrid,Germany → Spain,1508,South,Frankfurt → Madrid
+78,AU-PO-GRA-POZ,Austria,Poland,Graz,Poznan,Austria → Poland,1010,East,Graz → Poznan
+79,PO-CZ-POZ-PRA,Poland,Czech Republic,Poznan,Prague,Poland → Czech Republic,1726,East,Poznan → Prague
+80,BE-PO-LIE-WAR,Austria,Poland,Graz,Wroclaw,Belgium → Poland,695,East,Graz → Wroclaw
+81,ES-GR-SEV-THE,Spain,Greece,Seville,Thessaloniki,Spain → Greece,1667,South,Seville → Thessaloniki
+82,PL-CZ-WAR-PRA,Poland,Czech Republic,Warsaw,Prague,Poland → Czech Republic,690,East,Warsaw → Prague
+83,FR-LU-LYO-LUX,France,Luxembourg,Lyon,Luxembourg City,France → Luxembourg,2082,West,Lyon → Luxembourg City
+84,BE-FR-BRU-LYO,Belgium,France,Brussels,Lyon,Belgium → France,1576,West,Brussels → Lyon
+85,PT-IT-LIS-TUR,Portugal,Italy,Lisbon,Turin,Portugal → Italy,1411,South,Lisbon → Turin
+86,IT-ES-BOL-VAL,Italy,Spain,Bologna,Valencia,Italy → Spain,2027,South,Bologna → Valencia
+87,LU-DE-LUX-HAM,Luxembourg,Germany,Luxembourg City,Hamburg,Luxembourg → Germany,630,West,Luxembourg City → Hamburg
+88,NE-PT-ROT-POR,Netherlands,Portugal,Rotterdam,Porto,Netherlands → Portugal,1088,South,Rotterdam → Porto
+89,FR-BE-LIL-BRU,France,Belgium,Lille,Brussels,France → Belgium,528,West,Lille → Brussels
+90,PT-ES-LIS-MAD,Portugal,Spain,Lisbon,Madrid,Portugal → Spain,512,South,Lisbon → Madrid
+91,BE-FR-GHE-MAR,Belgium,France,Ghent,Marseille,Belgium → France,1983,West,Ghent → Marseille
+92,AT-HU-GRA-BUD,Austria,Hungary,Graz,Budapest,Austria → Hungary,1337,East,Graz → Budapest
+93,PT-GR-LIS-THE,Portugal,Greece,Lisbon,Thessaloniki,Portugal → Greece,651,South,Lisbon → Thessaloniki
+94,RO-SP-BUC-MAD,Romania,Spain,Bucharest,Madrid,Romania → Spain,2026,South,Bucharest → Madrid
+95,NL-DE-AMS-FRA,Netherlands,Germany,Amsterdam,Frankfurt,Netherlands → Germany,471,West,Amsterdam → Frankfurt
+96,NL-DE-EIN-DUS,Netherlands,Germany,Eindhoven,Dusseldorf,Netherlands → Germany,758,West,Eindhoven → Dusseldorf
+97,GR-PT-THE-POR,Greece,Portugal,Thessaloniki,Porto,Greece → Portugal,1179,South,Thessaloniki → Porto
+98,PL-SK-WRO-BRA,Poland,Slovakia,Wroclaw,Bratislava,Poland → Slovakia,1054,East,Wroclaw → Bratislava
+99,PL-SK-POZ-BRA,Poland,Slovakia,Poznan,Bratislava,Poland → Slovakia,847,East,Poznan → Bratislava
+100,PT-SP-POR-VAL,Portugal,Spain,Porto,Valencia,Portugal → Spain,1063,South,Porto → Valencia
+101,IT-ES-TUR-VAL,Italy,Spain,Turin,Valencia,Italy → Spain,941,South,Turin → Valencia
+102,HU-SK-DEB-BRA,Hungary,Slovakia,Debrecen,Bratislava,Hungary → Slovakia,1174,East,Debrecen → Bratislava
+103,CZ-AT-PRA-GRA,Czech Republic,Austria,Prague,Graz,Czech Republic → Austria,496,East,Prague → Graz
+104,LU-NL-LUX-ROT,Luxembourg,Netherlands,Luxembourg City,Rotterdam,Luxembourg → Netherlands,755,West,Luxembourg City → Rotterdam
+105,GR-PO-ATH-POZ,Greece,Poland,Athens,Poznan,Greece → Poland,875,South,Athens → Poznan
+106,AT-HU-VIE-BUD,Austria,Hungary,Vienna,Budapest,Austria → Hungary,245,East,Vienna → Budapest
+107,LU-BE-LUX-BRU,Luxembourg,Belgium,Luxembourg City,Brussels,Luxembourg → Belgium,556,West,Luxembourg City → Brussels
+108,NL-DE-AMS-DUS,Netherlands,Germany,Amsterdam,Dusseldorf,Netherlands → Germany,797,West,Amsterdam → Dusseldorf
+109,AT-HU-VIE-DEB,Austria,Hungary,Vienna,Debrecen,Austria → Hungary,1969,East,Vienna → Debrecen
+110,DE-NL-FRA-ROT,Germany,Netherlands,Frankfurt,Rotterdam,Germany → Netherlands,1906,West,Frankfurt → Rotterdam
+111,ES-IT-VAL-TUR,Spain,Italy,Valencia,Turin,Spain → Italy,1605,South,Valencia → Turin
+112,LU-BE-LUX-GHE,Luxembourg,Belgium,Luxembourg City,Ghent,Luxembourg → Belgium,1555,West,Luxembourg City → Ghent
+113,PT-IT-LIS-MIL,Portugal,Italy,Lisbon,Milan,Portugal → Italy,354,South,Lisbon → Milan
+114,IT-GR-MIL-ATH,Italy,Greece,Milan,Athens,Italy → Greece,427,South,Milan → Athens
+115,PL-HU-POZ-DEB,Poland,Hungary,Poznan,Debrecen,Poland → Hungary,526,East,Poznan → Debrecen
+116,SK-CZ-BRA-OST,Slovakia,Czech Republic,Bratislava,Ostrava,Slovakia → Czech Republic,979,East,Bratislava → Ostrava
+117,BE-FR-ANT-LYO,Belgium,France,Antwerp,Lyon,Belgium → France,767,West,Antwerp → Lyon
+118,SK-PL-BRA-WAR,Slovakia,Poland,Bratislava,Warsaw,Slovakia → Poland,1732,East,Bratislava → Warsaw
+119,CZ-AT-PRA-VIE,Czech Republic,Austria,Prague,Vienna,Czech Republic → Austria,1516,East,Prague → Vienna
+120,SK-RO-KOS-BUC,Slovakia,Romania,Kosice,Bucharest,Slovakia → Romania,1116,East,Kosice → Bucharest
+121,ES-IT-SEV-ROM,Spain,Italy,Seville,Rome,Spain → Italy,989,South,Seville → Rome
+122,ES-PT-SEV-POR,Spain,Portugal,Seville,Porto,Spain → Portugal,403,South,Seville → Porto
+123,NL-FR-EIN-LYO,Netherlands,France,Eindhoven,Lyon,Netherlands → France,986,West,Eindhoven → Lyon
+124,ES-IT-BAR-TUR,Spain,Italy,Barcelona,Turin,Spain → Italy,1555,South,Barcelona → Turin
+125,GR-ES-THE-VAL,Greece,Spain,Thessaloniki,Valencia,Greece → Spain,479,South,Thessaloniki → Valencia
+126,LU-AU-LUX-GRA,Luxembourg,Austria,Luxembourg City,Graz,Luxembourg → Austria,748,West,Luxembourg City → Graz
+127,RO-CZ-BUC-OST,Romania,Czech Republic,Bucharest,Ostrava,Romania → Czech Republic,665,East,Bucharest → Ostrava
+128,PT-ES-POR-MAD,Portugal,Spain,Porto,Madrid,Portugal → Spain,2064,South,Porto → Madrid
+129,SK-CZ-KOS-BRN,Slovakia,Czech Republic,Kosice,Brno,Slovakia → Czech Republic,1183,East,Kosice → Brno
+130,SK-PL-BRA-WRO,Slovakia,Poland,Bratislava,Wroclaw,Slovakia → Poland,1059,East,Bratislava → Wroclaw
+131,BE-NL-BRU-EIN,Belgium,Netherlands,Brussels,Eindhoven,Belgium → Netherlands,1311,West,Brussels → Eindhoven
+132,PL-AT-WRO-GRA,Poland,Austria,Wroclaw,Graz,Poland → Austria,1241,East,Wroclaw → Graz
+133,RO-HU-BUC-BUD,Romania,Hungary,Bucharest,Budapest,Romania → Hungary,825,East,Bucharest → Budapest
+134,HU-CZ-DEB-PRA,Hungary,Czech Republic,Debrecen,Prague,Hungary → Czech Republic,2092,East,Debrecen → Prague
+135,BE-LU-GHE-LUX,Belgium,Luxembourg,Ghent,Luxembourg City,Belgium → Luxembourg,1614,West,Ghent → Luxembourg City
+136,CZ-AT-BRN-VIE,Czech Republic,Austria,Brno,Vienna,Czech Republic → Austria,135,East,Brno → Vienna
+137,NL-DE-ROT-FRA,Netherlands,Germany,Rotterdam,Frankfurt,Netherlands → Germany,1283,West,Rotterdam → Frankfurt
+138,ES-PT-MAD-LIS,Spain,Portugal,Madrid,Lisbon,Spain → Portugal,625,South,Madrid → Lisbon
+139,IT-GR-BAR-ATH,Italy,Greece,Bari,Athens,Italy → Greece,900,South,Bari → Athens
+140,FR-ES-LYO-BAR,France,Spain,Lyon,Barcelona,France → Spain,640,South,Lyon → Barcelona
+141,SK-PL-BRA-POZ,Slovakia,Poland,Bratislava,Poznan,Slovakia → Poland,983,East,Bratislava → Poznan
+142,BE-LU-ANT-LUX,Belgium,Luxembourg,Antwerp,Luxembourg City,Belgium → Luxembourg,1378,West,Antwerp → Luxembourg City
+143,DE-FR-BER-LYO,Germany,France,Berlin,Lyon,Germany → France,1437,West,Berlin → Lyon
+144,NL-FR-ROT-LIL,Netherlands,France,Rotterdam,Lille,Netherlands → France,1281,West,Rotterdam → Lille
+145,GR-IT-ATH-ROM,Greece,Italy,Athens,Rome,Greece → Italy,1260,South,Athens → Rome
+146,HU-PL-DEB-WAR,Hungary,Poland,Debrecen,Warsaw,Hungary → Poland,1317,East,Debrecen → Warsaw
+147,GR-PT-ATH-POR,Greece,Portugal,Athens,Porto,Greece → Portugal,1761,South,Athens → Porto
+148,FR-BE-LIL-GHT,France,Belgium,Lille,Ghent,France → Belgium,1314,West,Lille → Ghent
+149,HU-AT-DEB-GRA,Hungary,Austria,Debrecen,Graz,Hungary → Austria,1208,East,Debrecen → Graz
+150,IT-PT-TUR-POR,Italy,Portugal,Turin,Porto,Italy → Portugal,990,South,Turin → Porto
+151,BE-NL-ANT-EIN,Belgium,Netherlands,Antwerp,Eindhoven,Belgium → Netherlands,365,West,Antwerp → Eindhoven
+152,GR-IT-ATH-TUR,Greece,Italy,Athens,Turin,Greece → Italy,591,South,Athens → Turin
+153,SP-GE-BAR-FRA,Spain,Germany,Barcelona,Frankfurt,Spain → Germany,1334,South,Barcelona → Frankfurt
+154,IT-ES-MIL-VAL,Italy,Spain,Milan,Valencia,Italy → Spain,1330,South,Milan → Valencia
+155,PT-GR-LIS-ATH,Portugal,Greece,Lisbon,Athens,Portugal → Greece,932,South,Lisbon → Athens
+156,IT-CZ-BRI-BRN,Italy,Czech Republic,Bari,Brno,Italy → Czech Republic,643,South,Bari → Brno
+157,DE-FR-HAM-PAR,Germany,France,Hamburg,Paris,Germany → France,1984,West,Hamburg → Paris
+158,AT-RO-GRA-CLU,Austria,Romania,Graz,Cluj-Napoca,Austria → Romania,460,East,Graz → Cluj-Napoca
+159,LU-NL-LUX-AMS,Luxembourg,Netherlands,Luxembourg City,Amsterdam,Luxembourg → Netherlands,1119,West,Luxembourg City → Amsterdam
+160,IT-GR-ROM-THE,Italy,Greece,Rome,Thessaloniki,Italy → Greece,1766,South,Rome → Thessaloniki
