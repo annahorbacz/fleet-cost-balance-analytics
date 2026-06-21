@@ -25,7 +25,6 @@ The analysis helps identify:
 
 SAP & Snowflake → SQL → Data Modeling → Power BI → DAX Measures → Business Insights
 
-## Key Features
 
 ## Business Logic & Benchmarking
 - Rule-based benchmark selection engine
