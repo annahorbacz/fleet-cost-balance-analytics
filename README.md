@@ -74,4 +74,4 @@ Additional dashboard screenshots, tooltip examples, drillthrough views, SQL tran
 
 ## Repository Notes
 
-The Power BI report included in this repository uses fully anonymized and simulated data created for portfolio purposes.
+The Power BI report included in this repository is based entirely on anonymized and simulated data created for portfolio purposes.
