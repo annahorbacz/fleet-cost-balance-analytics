@@ -53,10 +53,10 @@ SAP & Snowflake → SQL → Data Modeling → Power BI → DAX Measures → Busi
 
 ```txt
 fleet-cost-balance-analytics/
+├── data/
 ├── sql/
 ├── powerbi/
 ├── screenshots/
-├── data_model/
 └── docs/
 ```
 
