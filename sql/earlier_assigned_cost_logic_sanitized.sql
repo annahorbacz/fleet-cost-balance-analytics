@@ -3,10 +3,6 @@ Portfolio SQL sample
 Project: Fleet Cost Balance Analytics
 File: earlier_assigned_cost_logic_sanitized.sql
 
-Explanaition:
-- This query represents one of multiple analytical transformation layers used in the original reporting solution.
-- The final dashboard model was built using multiple benchmark, tendering, carrier performance, and financial calculation pipelines.
-
 Purpose:
 Identifies the most realistic earlier non-dedicated-fleet carrier cost for orders that were eventually executed by the internal fleet.
 This output can be used as one benchmark source in the Cost Balance calculation.
@@ -17,9 +13,9 @@ Notes:
 - This is a portfolio-safe version and is not intended to run against the original production environment.
 
 Parameterization notes:
-- Years, market organizations, and excluded document types are parameterized in the original reporting solution.
-- Parameters are dynamically injected from the reporting layer to support reusable analytics across multiple regions and reporting periods.
-- Static placeholder values were intentionally removed in this portfolio version to avoid hardcoded business configuration.
+
+- The original enterprise reporting solution used dynamic parameters for years, market organizations, and excluded document types.
+- In this portfolio version, simplified placeholder values are intentionally used to improve readability and demonstrate the underlying business logic more clearly.
 */
 
 WITH awarded_tender_events AS (
@@ -38,7 +34,7 @@ WITH awarded_tender_events AS (
         ON tr.request_key = resp.request_key
     LEFT JOIN source_schema.carrier_master AS bp
         ON resp.carrier_key = bp.carrier_key
-    WHERE o.market_org IN ('REGION_01', 'REGION_02', 'REGION_03')
+    WHERE o.market_org IN ('MARKET_01', 'MARKET_02', 'MARKET_03')
         AND o.document_category IN ('TRANSPORT_ORDER', 'BOOKING_ORDER')
         AND EXTRACT(YEAR FROM o.created_date) IN (2023, 2024, 2025, 2026)
         AND o.order_id IS NOT NULL
@@ -98,7 +94,7 @@ direct_internal_fleet_orders AS (
     FROM source_schema.transport_orders AS o
     LEFT JOIN source_schema.tendering_requests AS tr
         ON o.order_key = tr.order_key
-    WHERE o.market_org IN ('REGION_01', 'REGION_02', 'REGION_03')
+    WHERE o.market_org IN ('MARKET_01', 'MARKET_02', 'MARKET_03')
         AND o.document_category IN ('TRANSPORT_ORDER', 'BOOKING_ORDER')
         AND EXTRACT(YEAR FROM o.created_date) IN (2023, 2024, 2025, 2026)
         AND o.order_id IS NOT NULL
@@ -135,7 +131,7 @@ change_log_base AS (
     INNER JOIN source_schema.change_position AS p
         ON h.change_number = p.change_number
     WHERE h.object_class = 'TRANSPORT_ORDER'
-        AND o.market_org IN ('REGION_01', 'REGION_02', 'REGION_03')
+        AND o.market_org IN ('MARKET_01', 'MARKET_02', 'MARKET_03')
         AND o.document_category IN ('TRANSPORT_ORDER', 'BOOKING_ORDER')
         AND o.document_type NOT IN ('EXCLUDED_TYPE')
         AND EXTRACT(YEAR FROM o.created_date) IN (2023, 2024, 2025, 2026)
