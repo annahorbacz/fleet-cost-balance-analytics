@@ -28,17 +28,14 @@ SAP & Snowflake → SQL → Data Modeling → Power BI → DAX Measures → Busi
 
 ## Business Logic & Benchmarking
 - Rule-based benchmark selection engine
-- Transportation cost benchmarking logic
-- Fallback benchmark hierarchy
-- Operational benchmark prioritization
-- Business rule documentation layer
+- Transportation cost benchmarking
+- Business rule documentation
 
 ## Data & Modeling
-- Power BI semantic model
 - SQL preprocessing layer
-- Star schema data model
-- DAX calculation layer
 - Power Query transformations
+- Power BI semantic model
+- DAX calculation layer
 
 ## Reporting & Analytics
 - Executive operational overview
