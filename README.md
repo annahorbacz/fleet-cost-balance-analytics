@@ -1,20 +1,26 @@
 # Fleet Cost Balance Analytics
 
+Power BI | SQL | DAX | Data Modeling | Power Query | Snowflake | SAP
+
 Simplified enterprise-inspired transportation cost benchmarking and operational analytics project built with Power BI and SQL.
 
 ## Business Problem
 
 The project focuses on evaluating the real financial impact of internal fleet execution by comparing actual fleet transportation costs against realistic alternative carrier cost scenarios.
 
-Traditional benchmarking approaches often compared fleet execution costs against the cheapest contracted carrier available on a given route, which significantly overstated operational losses.
+Traditional benchmarking approaches compared fleet execution costs against the cheapest contracted carrier available on a given route, which significantly overstated operational losses.
 
-This project introduces a rule-based benchmark selection engine that dynamically identifies the most realistic alternative transportation cost depending on operational conditions such as:
+This project introduces a rule-based benchmark selection engine that dynamically identifies the most realistic alternative transportation cost depending on operational conditions.
 
-- Earlier Assigned Carrier Costs
-- Lowest Spot Bids
-- Spot Rates
-- Non-Spot Rates
-- Rank 1 Carrier Costs
+The analysis helps identify:
+- unprofitable routes
+- benchmark deviations
+- tendering inefficiencies
+- carrier cost optimization opportunities
+
+## Data Flow
+
+SAP & Snowflake → SQL → Data Modeling → Power BI → DAX Measures → Business Insights
 
 ## Key Features
 
@@ -43,16 +49,7 @@ This project introduces a rule-based benchmark selection engine that dynamically
 - Bookmark-based navigation
 - Filter pane optimization
 
-## Tech Stack
-
-- Power BI
-- SQL
-- Power Query
-- DAX
-- Snowflake
-- SAP
-
-## Planned Project Structure
+## Project Structure
 
 ```txt
 fleet-cost-balance-analytics/
@@ -76,3 +73,8 @@ Additional dashboard screenshots, tooltip examples, drillthrough views, SQL tran
 - [`/docs`](./docs) — DAX logic, business rules, and data dictionary
 - [`/data`](./data) — simulated datasets used for the portfolio version
 - [`/powerbi`](./powerbi) — Power BI project files
+
+
+## Repository Notes
+
+The Power BI report included in this repository uses fully anonymized and simulated data created for portfolio purposes.
