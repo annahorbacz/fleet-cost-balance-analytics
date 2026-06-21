@@ -13,10 +13,13 @@ Traditional benchmarking approaches compared fleet execution costs against the c
 This project introduces a rule-based benchmark selection engine that dynamically identifies the most realistic alternative transportation cost depending on operational conditions.
 
 The analysis helps identify:
-- unprofitable routes
-- benchmark deviations
+
+- real fleet profit and loss performance
+- the most and least profitable transportation routes
+- orders with significant cost deviations
 - tendering inefficiencies
 - carrier cost optimization opportunities
+
 
 ## Data Flow
 
