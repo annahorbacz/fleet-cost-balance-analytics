@@ -65,9 +65,7 @@ fleet-cost-balance-analytics/
 
 ## Report Preview
 
-### Executive Overview
-
-![Executive Overview](screenshots/executive_overview_tooltip.png)
+![Dashboard Demo](screenshots/dashboard_demo.gif)
 
 Additional dashboard screenshots, tooltip examples, drillthrough views, SQL transformation samples, and business logic documentation are available in the corresponding project folders:
 
