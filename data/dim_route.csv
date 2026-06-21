@@ -81,11 +81,11 @@ route_key,lane_key,source_country,destination_country,source_city,destination_ci
 80,BE-PO-LIE-WAR,Austria,Poland,Graz,Wroclaw,Belgium → Poland,695,East,Graz → Wroclaw
 81,ES-GR-SEV-THE,Spain,Greece,Seville,Thessaloniki,Spain → Greece,1667,South,Seville → Thessaloniki
 82,PL-CZ-WAR-PRA,Poland,Czech Republic,Warsaw,Prague,Poland → Czech Republic,690,East,Warsaw → Prague
-83,FR-LU-LYO-LUX,France,Luxembourg,Lyon,Luxembourg City,France → Luxembourg,2082,West,Lyon → Luxembourg City
+83,FR-LU-LYO-LUX,France,Luxembourg,Lyon,Luxembourg,France → Luxembourg,2082,West,Lyon → Luxembourg
 84,BE-FR-BRU-LYO,Belgium,France,Brussels,Lyon,Belgium → France,1576,West,Brussels → Lyon
 85,PT-IT-LIS-TUR,Portugal,Italy,Lisbon,Turin,Portugal → Italy,1411,South,Lisbon → Turin
 86,IT-ES-BOL-VAL,Italy,Spain,Bologna,Valencia,Italy → Spain,2027,South,Bologna → Valencia
-87,LU-DE-LUX-HAM,Luxembourg,Germany,Luxembourg City,Hamburg,Luxembourg → Germany,630,West,Luxembourg City → Hamburg
+87,LU-DE-LUX-HAM,Luxembourg,Germany,Luxembourg,Hamburg,Luxembourg → Germany,630,West,Luxembourg → Hamburg
 88,NE-PT-ROT-POR,Netherlands,Portugal,Rotterdam,Porto,Netherlands → Portugal,1088,South,Rotterdam → Porto
 89,FR-BE-LIL-BRU,France,Belgium,Lille,Brussels,France → Belgium,528,West,Lille → Brussels
 90,PT-ES-LIS-MAD,Portugal,Spain,Lisbon,Madrid,Portugal → Spain,512,South,Lisbon → Madrid
@@ -102,15 +102,15 @@ route_key,lane_key,source_country,destination_country,source_city,destination_ci
 101,IT-ES-TUR-VAL,Italy,Spain,Turin,Valencia,Italy → Spain,941,South,Turin → Valencia
 102,HU-SK-DEB-BRA,Hungary,Slovakia,Debrecen,Bratislava,Hungary → Slovakia,1174,East,Debrecen → Bratislava
 103,CZ-AT-PRA-GRA,Czech Republic,Austria,Prague,Graz,Czech Republic → Austria,496,East,Prague → Graz
-104,LU-NL-LUX-ROT,Luxembourg,Netherlands,Luxembourg City,Rotterdam,Luxembourg → Netherlands,755,West,Luxembourg City → Rotterdam
+104,LU-NL-LUX-ROT,Luxembourg,Netherlands,Luxembourg,Rotterdam,Luxembourg → Netherlands,755,West,Luxembourg → Rotterdam
 105,GR-PO-ATH-POZ,Greece,Poland,Athens,Poznan,Greece → Poland,875,South,Athens → Poznan
 106,AT-HU-VIE-BUD,Austria,Hungary,Vienna,Budapest,Austria → Hungary,245,East,Vienna → Budapest
-107,LU-BE-LUX-BRU,Luxembourg,Belgium,Luxembourg City,Brussels,Luxembourg → Belgium,556,West,Luxembourg City → Brussels
+107,LU-BE-LUX-BRU,Luxembourg,Belgium,Luxembourg,Brussels,Luxembourg → Belgium,556,West,Luxembourg → Brussels
 108,NL-DE-AMS-DUS,Netherlands,Germany,Amsterdam,Dusseldorf,Netherlands → Germany,797,West,Amsterdam → Dusseldorf
 109,AT-HU-VIE-DEB,Austria,Hungary,Vienna,Debrecen,Austria → Hungary,1969,East,Vienna → Debrecen
 110,DE-NL-FRA-ROT,Germany,Netherlands,Frankfurt,Rotterdam,Germany → Netherlands,1906,West,Frankfurt → Rotterdam
 111,ES-IT-VAL-TUR,Spain,Italy,Valencia,Turin,Spain → Italy,1605,South,Valencia → Turin
-112,LU-BE-LUX-GHE,Luxembourg,Belgium,Luxembourg City,Ghent,Luxembourg → Belgium,1555,West,Luxembourg City → Ghent
+112,LU-BE-LUX-GHE,Luxembourg,Belgium,Luxembourg,Ghent,Luxembourg → Belgium,1555,West,Luxembourg → Ghent
 113,PT-IT-LIS-MIL,Portugal,Italy,Lisbon,Milan,Portugal → Italy,354,South,Lisbon → Milan
 114,IT-GR-MIL-ATH,Italy,Greece,Milan,Athens,Italy → Greece,427,South,Milan → Athens
 115,PL-HU-POZ-DEB,Poland,Hungary,Poznan,Debrecen,Poland → Hungary,526,East,Poznan → Debrecen
@@ -124,7 +124,7 @@ route_key,lane_key,source_country,destination_country,source_city,destination_ci
 123,NL-FR-EIN-LYO,Netherlands,France,Eindhoven,Lyon,Netherlands → France,986,West,Eindhoven → Lyon
 124,ES-IT-BAR-TUR,Spain,Italy,Barcelona,Turin,Spain → Italy,1555,South,Barcelona → Turin
 125,GR-ES-THE-VAL,Greece,Spain,Thessaloniki,Valencia,Greece → Spain,479,South,Thessaloniki → Valencia
-126,LU-AU-LUX-GRA,Luxembourg,Austria,Luxembourg City,Graz,Luxembourg → Austria,748,West,Luxembourg City → Graz
+126,LU-AU-LUX-GRA,Luxembourg,Austria,Luxembourg,Graz,Luxembourg → Austria,748,West,Luxembourg → Graz
 127,RO-CZ-BUC-OST,Romania,Czech Republic,Bucharest,Ostrava,Romania → Czech Republic,665,East,Bucharest → Ostrava
 128,PT-ES-POR-MAD,Portugal,Spain,Porto,Madrid,Portugal → Spain,2064,South,Porto → Madrid
 129,SK-CZ-KOS-BRN,Slovakia,Czech Republic,Kosice,Brno,Slovakia → Czech Republic,1183,East,Kosice → Brno
@@ -133,14 +133,14 @@ route_key,lane_key,source_country,destination_country,source_city,destination_ci
 132,PL-AT-WRO-GRA,Poland,Austria,Wroclaw,Graz,Poland → Austria,1241,East,Wroclaw → Graz
 133,RO-HU-BUC-BUD,Romania,Hungary,Bucharest,Budapest,Romania → Hungary,825,East,Bucharest → Budapest
 134,HU-CZ-DEB-PRA,Hungary,Czech Republic,Debrecen,Prague,Hungary → Czech Republic,2092,East,Debrecen → Prague
-135,BE-LU-GHE-LUX,Belgium,Luxembourg,Ghent,Luxembourg City,Belgium → Luxembourg,1614,West,Ghent → Luxembourg City
+135,BE-LU-GHE-LUX,Belgium,Luxembourg,Ghent,Luxembourg,Belgium → Luxembourg,1614,West,Ghent → Luxembourg
 136,CZ-AT-BRN-VIE,Czech Republic,Austria,Brno,Vienna,Czech Republic → Austria,135,East,Brno → Vienna
 137,NL-DE-ROT-FRA,Netherlands,Germany,Rotterdam,Frankfurt,Netherlands → Germany,1283,West,Rotterdam → Frankfurt
 138,ES-PT-MAD-LIS,Spain,Portugal,Madrid,Lisbon,Spain → Portugal,625,South,Madrid → Lisbon
 139,IT-GR-BAR-ATH,Italy,Greece,Bari,Athens,Italy → Greece,900,South,Bari → Athens
 140,FR-ES-LYO-BAR,France,Spain,Lyon,Barcelona,France → Spain,640,South,Lyon → Barcelona
 141,SK-PL-BRA-POZ,Slovakia,Poland,Bratislava,Poznan,Slovakia → Poland,983,East,Bratislava → Poznan
-142,BE-LU-ANT-LUX,Belgium,Luxembourg,Antwerp,Luxembourg City,Belgium → Luxembourg,1378,West,Antwerp → Luxembourg City
+142,BE-LU-ANT-LUX,Belgium,Luxembourg,Antwerp,Luxembourg,Belgium → Luxembourg,1378,West,Antwerp → Luxembourg
 143,DE-FR-BER-LYO,Germany,France,Berlin,Lyon,Germany → France,1437,West,Berlin → Lyon
 144,NL-FR-ROT-LIL,Netherlands,France,Rotterdam,Lille,Netherlands → France,1281,West,Rotterdam → Lille
 145,GR-IT-ATH-ROM,Greece,Italy,Athens,Rome,Greece → Italy,1260,South,Athens → Rome
@@ -157,5 +157,5 @@ route_key,lane_key,source_country,destination_country,source_city,destination_ci
 156,IT-CZ-BRI-BRN,Italy,Czech Republic,Bari,Brno,Italy → Czech Republic,643,South,Bari → Brno
 157,DE-FR-HAM-PAR,Germany,France,Hamburg,Paris,Germany → France,1984,West,Hamburg → Paris
 158,AT-RO-GRA-CLU,Austria,Romania,Graz,Cluj-Napoca,Austria → Romania,460,East,Graz → Cluj-Napoca
-159,LU-NL-LUX-AMS,Luxembourg,Netherlands,Luxembourg City,Amsterdam,Luxembourg → Netherlands,1119,West,Luxembourg City → Amsterdam
+159,LU-NL-LUX-AMS,Luxembourg,Netherlands,Luxembourg,Amsterdam,Luxembourg → Netherlands,1119,West,Luxembourg → Amsterdam
 160,IT-GR-ROM-THE,Italy,Greece,Rome,Thessaloniki,Italy → Greece,1766,South,Rome → Thessaloniki
